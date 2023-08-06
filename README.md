@@ -40,7 +40,7 @@ Note that WSL doesn't work for some people, and if you have trouble building it 
 **WEB BUILDER DOES NOT INCLUDE PAYLOADS!! YOU MUST BUILD IT MANUALLY FROM SOURCE FOR PAYLOADS**
 
 ```
-git clone https://github.com/CoolElectronics/sh1mmer
+git clone https://github.com/elliothegamer2/sh1mmer-mod
 cd sh1mmer/wax
 wget https://dl.sh1mmer.me/build-tools/chromebrew/chromebrew.tar.gz
 sudo bash wax.sh /path/to/the/shim/you/downloaded.bin
