@@ -41,7 +41,7 @@ Note that WSL doesn't work for some people, and if you have trouble building it 
 
 ```
 git clone https://github.com/elliothegamer2/sh1mmer-mod
-cd sh1mmer/wax
+cd sh1mmer-mod/wax
 wget https://dl.sh1mmer.me/build-tools/chromebrew/chromebrew.tar.gz
 sudo bash wax.sh /path/to/the/shim/you/downloaded.bin
 ```
