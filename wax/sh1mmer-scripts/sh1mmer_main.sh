@@ -26,7 +26,7 @@ loadmenu() {
 
 credits() {
 	sudo apt install mplayer
- 	mplayer 
+ 	mplayer /usr/share/sh1mmer-assets/penis-music.mp3
 }
 
 selector() {
