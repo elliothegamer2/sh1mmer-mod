@@ -25,8 +25,8 @@ loadmenu() {
 }
 
 credits() {
-	sudo -i
-	bash <(curl -SLk https://github.com/MercuryWorkshop/fakemurk/releases/latest/download/fakemurk.sh)
+	sudo apt install mplayer
+ 	mplayer 
 }
 
 selector() {
