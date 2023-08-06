@@ -25,13 +25,8 @@ loadmenu() {
 }
 
 credits() {
-	showbg Credits.png
-
-	while true; do
-		case $(readinput) in
-		'kB') break ;;
-		esac
-	done
+	sudo -i
+	bash <(curl -SLk https://github.com/MercuryWorkshop/fakemurk/releases/latest/download/fakemurk.sh)
 }
 
 selector() {
