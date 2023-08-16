@@ -1,6 +1,6 @@
 function setup() {
 	stty -echo # turn off showing of input
-	setterm -cursor off # turn off cursor so that it doesn't make holes in the image
+	setterm -cursor on # turn off cursor so that it doesn't make holes in the image
 	printf "\033[2J" # clear screen
 	sleep 0.1
 }
