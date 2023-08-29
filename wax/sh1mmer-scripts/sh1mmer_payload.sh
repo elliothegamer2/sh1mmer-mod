@@ -9,12 +9,13 @@ mapname() {
 	'/usr/local/payloads/wifi.sh') printf 'Connect to wifi' ;;
 	'/usr/local/payloads/autoupdate.sh') printf 'Fetch updated payloads. REQUIRES WIFI' ;;
 	'/usr/local/payloads/stopupdates.sh') printf 'IMPORTANT! UPDATE DISABLER FOR CHROMEOS. RUN THIS IF YOU DONT WANT THIS TO GET PATCHED FOR YOU' ;;
-	'/usr/local/payloads/troll.sh') printf "hahah wouldn't it be realllly funny if you ran this payload trust me nothing bad will happen" ;;
+	'/usr/local/payloads/troll.sh') printf "DO NOT RUN BREAKS CHROMEOS" ;;
 	'/usr/local/payloads/weston.sh') printf 'Launch the weston Desktop Environment. REQUIRES A DEVSHIM (wax.sh ran with the --dev argument)' ;;
 	'/usr/local/payloads/movie.sh') printf "HAHA WINDOWS SUX BUT THE MOVIE" ;;
 	'/usr/local/payloads/mrchromebox.sh') printf "MrChromebox firmware-util.sh" ;;
 	'/usr/local/payloads/caliginosity.sh') printf "Revert all changes made by sh1mmer (reenroll + more)" ;;
 	'/usr/local/payloads/defog.sh') printf "Set GBB flags to allow devmode and unenrollment POST-112. WRITE PROTECTION MUST BE DISABLED" ;;
+ 	'/usr/local/payloads/defogsec.sh') printf "Attemp Better Defog" ;;
 
 	*) printf $1 ;;
 	esac
